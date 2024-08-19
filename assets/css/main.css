@@ -87,7 +87,7 @@ input, select, textarea {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		color: #888;
 	}
 
@@ -167,7 +167,7 @@ input, select, textarea {
 	.footer-links {
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 10px;
+		gap: 20px;
 	  }
 	  
 	.footer-links .button {
@@ -179,7 +179,7 @@ input, select, textarea {
 		text-align: center;
 		white-space: normal;
 		font-weight: bold;
-  		/* text-decoration: underline; */
+  		text-decoration: none;
 		padding: 2px 15px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 	}
@@ -206,7 +206,7 @@ input, select, textarea {
 
 		a:hover {
 			color: #E27689;
-			border-bottom-color: rgba(255, 255, 255, 0);
+			border-bottom-color: dotted 1px rgba(255, 255, 255, 0);
 		}
 
 	sub {
@@ -1987,7 +1987,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		border-radius: 0.35em;
+		border-radius: 0em;
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
@@ -2676,35 +2676,35 @@ input, select, textarea {
 
 	}
 
-.divider {
-		width: 90%;
-		margin: 10px auto;
-		border: none;
-		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
-}
+	.divider {
+			width: 90%;
+			margin: 10px auto;
+			border: none;
+			border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+	}
 
-.img-wrap {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
+	.img-wrap {
+		width: 100%;
+		height: 300px;
+		overflow: hidden;
+	}
 
 /* future imperfect */
 /* Mini Post */
 
-.mini-post {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	-moz-flex-direction: column-reverse;
-	-webkit-flex-direction: column-reverse;
-	-ms-flex-direction: column-reverse;
-	flex-direction: column-reverse;
-	background: #ffffff;
-	border: solid 1px rgba(160, 160, 160, 0.3);
-	margin: 0 0 0.2em 0;
-}
+	.mini-post {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		background: #ffffff;
+		border: solid 1px rgba(160, 160, 160, 0.3);
+		margin: 0 0 0.2em 0;
+	}
 
 	.mini-post .image {
 		overflow: hidden;
@@ -2756,9 +2756,9 @@ input, select, textarea {
 			top: 2em;
 		}
 
-.mini-posts {
-	margin: 0 0 2em 0;
-}
+	.mini-posts {
+		margin: 0 0 2em 0;
+	}
 
 	@media screen and (max-width: 1280px) {
 
@@ -2819,3 +2819,4 @@ input, select, textarea {
 		text-align: right;
 		font-size: small;
 	}
+
