@@ -2800,7 +2800,7 @@ input, select, textarea {
 	}
 
 	.bg-image {
-		background-image: url('eso137001_f770w.jpg');
+		background-image: url('../../eso137001_f770w.jpg');
 		background-size: cover;
 		background-position: center;
 		height: 0px; /* Adjust as needed */
